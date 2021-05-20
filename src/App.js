@@ -7,6 +7,8 @@ function App() {
     const [findRecipe, setfinRecipe] = React.useState('Anders');
     const [textAreafield, settextAreafield] = React.useState('');
 
+
+
     function Sendform(e) {
         e.preventDefault();
         console.log(nameValue, agevalue, findRecipe, textAreafield);
